@@ -1,0 +1,48 @@
+Informações para uso do Ben:
+
+Zoe é uma assistente virtual desenvolvida para auxiliar o usuário em suas principais tarefas diárias.
+Caso o usuário necessite de novos comandos basta alterar o código de acordo com suas próprias informações e preferências de navegação.
+
+
+AVISOS IMPORTANTES:
+
+AVISO 1: 
+Toda a execução da Zoe é baseada em comandos pré-definidos. Segue abaixo o link com a lista de todos os comandos presentes até o momento.
+
+Link dos comandos:
+https://docs.google.com/document/d/1eiu3d8m9DV4_exPyocXf7ScB5kLpyGMfj90DBXkJnE8/edit?usp=sharing
+
+
+AVISO 2:
+Para que ela possa fazer pesquisas diretas no Google é necessário que o usuário tenha instalado em seu computador, na pasta onde encontra-se instalado o Python, 
+o driver de seu navegador padrão.
+
+Antes de instalar o Driver é necessário checar a versão de seu navegador para instalar o Driver correto. 
+
+Link para download do Driver do Google Chrome:
+https://chromedriver.chromium.org/downloads
+
+Link do vídeo mostrando como instalar o Driver corretamente:
+https://drive.google.com/file/d/169vuT7TNc5qDf_Jh8olSsBMb3ms_BTXg/view?usp=sharing
+
+
+AVISO 3:
+O reconhecimento de voz presente no código da Zoe é dependente do uso de 3 bibliotecas externas. 
+A princípio basta instalar a biblioteca SpeechRecognition através do comando ‘pip install SpeechRecognition’ e depois o Pyaudio através do comando ‘pip install pyaudio’.
+
+Entretanto se o sistema operacional for windows é capaz de ocorrer um erro de instalação do Pyaudio quando executado o seu comando pip de instalação. 
+Para corrigir tal problema, deve ser instalada uma terceira biblioteca, o Pipwin. Basta acessar o terminal novamente e executar o comando ‘pip install pipwin’ 
+e após concluída a instalação, executar o comando ‘pipwin install pyaudio’ que o Pyaudio será instalado corretamente.
+
+Após este processo pode ocorrer de o Pyaudio estar instalado, porém o Pycharm não conseguir importar a biblioteca. 
+Para verificar a solução para este, acessar o link abaixo e testar as soluções apresentadas no vídeo abaixo:
+Link:
+https://drive.google.com/file/d/11XL3GOazOtehESoiDEoRDx3FHWj7__mi/view?usp=sharing
+
+No caso de uso do meu Pycharm, foi necessário apenas alterar o interpretador do Python que estava sendo utilizado no programa.
+Link de como realizar este procedimento:
+https://drive.google.com/file/d/1BjNWiCzybxyqe0fvMk3s-b6LRNXd58pO/view?usp=sharing
+
+AVISO 4:
+Alguns outros possíveis problemas podem ser encontrados. Tal como erros no arquivo 'cipher.py' das bibliotecas presentes. Porém são mais complexos de serem explicados
+neste arquivo. Entretanto, todos já possuem solução presente na Web. Basta pesquisar o nome do erro e contabilizar a solução apresentada.
