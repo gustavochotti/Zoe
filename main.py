@@ -662,24 +662,6 @@ while True:
         sleep(1.2)
         pyautogui.hotkey('enter')
 
-    elif 'trabalho' in option:
-        engine = pyttsx3.init()
-        engine.say('Executando trabalho')
-        engine.runAndWait()
-        navegador = webdriver.Chrome()
-        navegador.get('https://sgf.fisk.com.br:154/SGF/Auth/Login?ReturnUrl=%2Fsgf%2F')
-        sleep(1)
-        navegador.find_element(By.XPATH, '//*[@id="Login"]').send_keys('Gchotti')
-        navegador.find_element(By.XPATH, '//*[@id="Password"]').send_keys('Nickmane16')
-        navegador.find_element(By.XPATH, '/html/body/div[2]/div/a[2]').click()
-        navegador.find_element(By.XPATH, '//*[@id="submitLogin"]').click()
-
-    elif 'faculdade' in option:
-        engine = pyttsx3.init()
-        engine.say('Abrindo portal do aluno...')
-        engine.runAndWait()
-        wb.open('https://estudantesuam.ead.br')
-
     elif 'drive' in option:
         frase = 'Abrindo Google Drive...'
         sleep(1.5)
